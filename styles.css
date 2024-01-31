@@ -1,0 +1,22 @@
+.pozadinskaSlika {
+    text-align: center;
+}
+
+@media only screen and (max-width:360px) and (max-height: 800) {
+
+
+}
+
+#footer div {
+    height: 50px;
+    
+}
+
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    background: grey;
+    padding: 10px;
+}
+
