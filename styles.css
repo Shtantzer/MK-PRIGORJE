@@ -1,7 +1,8 @@
-/* html, body {
-    height: 100%;
-    margin: 0;
-} */
+html, body {
+    /* background-color: rgb(58, 57, 57); */
+    background-color: rgb(29, 29, 29);
+    
+}
 
 /* SVE OVO JE ZA NAVBAR, DESKTOP I MOB*/
 nav {
@@ -16,7 +17,7 @@ nav {
     padding: 0;
     margin-top: 50px;
 	background-color: black;
-	border: 2px solid black;
+	border: 2px solid rgb(224, 176, 20);
 	border-radius: 20px;
     float: right;
 }
@@ -61,7 +62,7 @@ li a:hover {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: black;
+        background-color: rgb(224, 176, 20);
     }
 	.hamburger{
 		display: block;
@@ -115,8 +116,8 @@ footer {
     text-align: center;
     font-weight: bold;
     background: grey;
-    height: 30px;
-    padding-top: 10px;
+    height: 40px;
+    padding-top: 20px;
 }
 
 #srce {
@@ -126,5 +127,13 @@ footer {
 #logo {
     padding: 20px;
     
+}
+
+#winter_video {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 2px solid rgb(224, 176, 20);
+    margin-bottom: 500px;
 }
 
