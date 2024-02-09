@@ -4,6 +4,11 @@ html, body {
     
 }
 
+#logo {
+    padding: 20px;
+    
+}
+
 /* SVE OVO JE ZA NAVBAR, DESKTOP I MOB*/
 nav {
     display: inline;
@@ -47,8 +52,8 @@ li a:hover {
 	display: none;
 	cursor: pointer;
 	float: right;
-    margin-top: 50px;
-    margin-right: 20px;
+    margin-top: 100px;
+    margin-right: 70px;
 }
 
 
@@ -89,24 +94,48 @@ li a:hover {
 	.izbornik.active{
 		left: 40px;
 	}
+
+    /* #lokacija iframe {
+        width: 500px;
+        height: 500px;    
+    } */
 }
 /* SVE OVO JE ZA NAVBAR, DESKTOP I MOB*/
 
-/* #pozadinskaSlika {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+#o_nama img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 2px solid rgb(224, 176, 20);
+    margin-top: 100px;
 }
 
-#pozadinskaSlika img {
-    width: auto;
-    height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-} */
+h1 {
+    text-align: center;
+    color: rgb(224, 176, 20);
+    margin-top: 50px;
+}
+
+#o_nama p {
+    text-align: center;
+    color: rgb(224, 176, 20);
+    margin-top: 25px;
+}
+
+#winter_video {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 2px solid rgb(224, 176, 20);
+    margin-top: 25px;
+}
+
+#lokacija {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 500px;
+}
 
 footer {
     position: fixed;
@@ -124,16 +153,17 @@ footer {
     text-decoration: none;
 }
 
-#logo {
-    padding: 20px;
-    
-}
 
-#winter_video {
-    display: block;
-    margin: auto;
-    width: 100%;
-    border: 2px solid rgb(224, 176, 20);
-    margin-bottom: 500px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
