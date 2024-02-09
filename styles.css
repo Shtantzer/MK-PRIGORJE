@@ -1,6 +1,7 @@
 html, body {
     /* background-color: rgb(58, 57, 57); */
     background-color: rgb(29, 29, 29);
+    scroll-behavior: smooth;
     
 }
 
@@ -116,7 +117,7 @@ h1 {
     margin-top: 50px;
 }
 
-#o_nama p {
+p {
     text-align: center;
     color: rgb(224, 176, 20);
     margin-top: 25px;
@@ -132,8 +133,21 @@ h1 {
 
 #lokacija {
     text-align: center;
-    width: 100%;
-    margin-top: 25px;
+    width: 90%;
+    margin: 25px;
+}
+
+#drustvene_mreze {
+    margin-bottom: 500px;
+}
+
+#drustvene_mreze a img {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+#galerija {
     margin-bottom: 500px;
 }
 
@@ -147,6 +161,7 @@ footer {
     background: grey;
     height: 40px;
     padding-top: 20px;
+    margin-top: 500px;
 }
 
 #srce {
