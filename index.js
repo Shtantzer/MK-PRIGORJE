@@ -15,3 +15,15 @@ for (var i=0; i<gumbi.length; i++) {
     });
 }
 
+/* function closeMenuOnClickOutside(event) {
+    const target = event.target;
+    if (!target.classList.contains("hamburger") && !izbornik.contains(target)) {
+        hamburger.classList.remove("active");
+        izbornik.classList.remove("active");
+    }
+}
+
+document.addEventListener("click", closeMenuOnClickOutside); */
+
+
+
