@@ -135,10 +135,6 @@ p {
     margin-top: 25px;
 }
 
-#drustvene_mreze {
-    margin-bottom: 500px;
-}
-
 #drustvene_mreze a img {
     display: block;
     margin: auto;
@@ -146,9 +142,21 @@ p {
 }
 
 #galerija {
+    margin: auto;
+    display: block;
+    text-align: center;
     margin-bottom: 500px;
 }
 
+#galerija iframe {
+    width: 500px;
+    height: 500px; 
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: 2px solid rgb(224, 176, 20);
+    margin-top: 25px;
+}
 footer {
     position: fixed;
     left: 0;
