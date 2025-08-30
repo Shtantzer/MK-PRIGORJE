@@ -10,7 +10,7 @@ html, body {
     
 }
 
-/* ALL OF THIS IF FOR NAVBAR, DESKTOP AND MOB*/
+/* ALL OF THIS IF FOR NAVBAR, DESKTOP */
 nav {
     display: inline;
    
@@ -63,6 +63,10 @@ margin: auto;
 border: 2px solid rgb(224, 176, 20);
 }
 
+/* END - ALL OF THIS IF FOR NAVBAR, DESKTOP */
+
+/* ALL OF THIS IF FOR MOB*/
+
 @media(max-width:1000px){
     /* HAMBURGER AND ITS TRANSITION */
     .bar{
@@ -104,8 +108,12 @@ border: 2px solid rgb(224, 176, 20);
         width: 500px;
         height: 500px;    
     }  */
+
+    html {
+        margin-left: 100px;
+    }
 }
-/* END OF THE NAVBAR*/
+/* END - ALL OF THIS IF FOR MOB*/
 
 #o_nama img{
     margin-top: 100px;
